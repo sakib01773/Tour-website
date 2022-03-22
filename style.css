@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&family=Manrope:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+h5 {
+    font-family: 'Lora';
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ss p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+
+}
+
+.card-body h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
+
+h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.carousel-item img {
+    height: 584px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    top: 32%;
+}
+
+.btn-main-1 {
+    background: #91C854;
+    padding: 10px 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hero-btn {
+    background: #00AFEF;
+    color: white;
+
+}
+
+.btn-package {
+    background: #00AFEF;
+    mix-blend-mode: normal;
+    color: #3F87F5;
+    border-radius: 24px;
+    padding: 10px 70px;
+}
+
+.package {
+    color: #00AFEF;
+}
+
+
+.card-package:hover {
+    background: linear-gradient(180deg, #00AFEF 0%, #91C854 100%);
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    color: white;
+    margin-top: -30px;
+    position: relative;
+}
+
+.btn-package:hover {
+    background: white;
+    color: #91C854;
+
+}
+
+.card-package:hover:before {
+    content: "Hot";
+    background-color: red;
+    padding: 0 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 270px;
+}
+
+
+.clients {
+    color: #91C854;
+}
+
+.card-client {
+    border-radius: 10px;
+}
+
+.card-client p {
+    padding: 0px 32px;
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+
+
+@media (max-width:540px) {
+    .col-md-6 {
+        width: 540px;
+    }
+
+    .card {
+        margin: .1rem 4rem;
+        border: none;
+    }
+
+    .card-body {
+        padding: .5rem 1rem;
+        margin: 1rem 1rem;
+    }
+
+    .btn-package {
+        background: #00AFEF;
+        mix-blend-mode: normal;
+        color: #3F87F5;
+        border-radius: 24px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .btn-package {
+        padding: 10px 40px;
+    }
+}
+
+@media (max-width: 1396px) {
+
+    .btn-package {
+        padding: 10px 30px;
+    }
+}
